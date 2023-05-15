@@ -30,4 +30,4 @@
 /(product|system/product)/etc/init\.qcom\.testscripts\.sh         u:object_r:qti-testscripts_exec:s0
 
 /storage/emulated(/.*)?         u:object_r:media_rw_data_file:s0
-/system_ext/bin/virtual_keyboard     u:object_r:virtual_keyboard_exec:s0
+/system_ext/bin/virtual_keyboard     u:object_r:vendor_virtual_keyboard_exec:s0
